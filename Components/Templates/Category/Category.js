@@ -23,7 +23,7 @@ const Category = () => {
 				<Link
 					scroll={false}
 					href="/category/all"
-					className={`${params.category === category && "text-green-400"} `}
+					className={`${params.category === "all" && "text-green-400"} `}
 				>
 					All
 				</Link>
